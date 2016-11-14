@@ -44,7 +44,7 @@ alias queen="ssh krister@5.150.254.115"
 alias queentunnel="ssh -L 9999:localhost:8384 5.150.254.115"
 alias inst="sudo apt-get install $@"
 alias wcon="wicd-curses"
-alias gitpush="git push origin master"
+alias gitupdate="git commit -am \"regular commit\" &&git push origin master"
 alias spacereplace_="find . -depth -name \"* *\" -execdir rename 's/ /_/g' \"{}\" \;"
 
 
