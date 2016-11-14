@@ -1,0 +1,9 @@
+echo "Rebirth? All unsaved data will be lost. [y/n]"
+read sure
+
+if [ $sure == "y" ]; then
+	echo "ok!"
+	systemctl reboot
+else
+	echo "nah!"
+fi

@@ -1,0 +1,9 @@
+echo "This is the end of the world. All unsaved data will be lost. [y/n]"
+read sure
+
+if [ $sure == "y" ]; then
+	echo "ok!"
+	systemctl poweroff
+else
+	echo "nah!"
+fi
