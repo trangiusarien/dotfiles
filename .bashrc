@@ -44,8 +44,10 @@ alias queen="ssh krister@5.150.254.115"
 alias queentunnel="ssh -L 9999:localhost:8384 5.150.254.115"
 alias inst="sudo apt-get install $@"
 alias wcon="wicd-curses"
-alias gitul="git remote add origin https://github.com/trangiusarien/home.git && git push -u origin master"
+alias gitpush="git push origin master"
 alias spacereplace_="find . -depth -name \"* *\" -execdir rename 's/ /_/g' \"{}\" \;"
+
+
 #########################################################################
 # PATHS
 #########################################################################
